@@ -77,6 +77,15 @@ header {
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
+
+  div {
+    a {
+      align-items: center;
+      align-content: center;
+    }
+  }
+
+
 }
 
 
@@ -112,6 +121,7 @@ header {
     transition: color 0.2s;
     font-weight: 500;
     
+    
     &:hover, &:focus {
       color: var(--primary);
       outline: none;
@@ -121,7 +131,12 @@ header {
   }
 }
 
-
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 1 rem;
+  margin-left: auto;
+}
 
 
 
@@ -135,6 +150,16 @@ header div a {
   font-size: 0.875rem;
   font-weight: 700;
   text-decoration: none;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.2s;
+  margin-right: 1rem;
+
+  &:hover, &:focus {
+    color: #0d5ba8;
+    outline: none;
+  }
+
 }
 
 
@@ -148,7 +173,7 @@ main > section:nth-child(1){
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 45px;
+  margin-top: 45px;
 
    p {
     color: var(--text-secondary);
@@ -167,16 +192,16 @@ form {
   width: 100%;
   margin: 0 auto;
   padding-inline: 1rem;
+  
 }
 
 
 
 form[role="search"] {
-   max-width: 42rem;
-   width: 100%;
-   margin: 25px;
+   max-width: 98rem;
+   margin-top: 25px;
    padding-inline: 1rem;
-    
+   align-content: center;    
 
 }
 
@@ -189,6 +214,9 @@ form input[type="text"] {
   padding: 0.75rem 0.5rem;
   font-size: 1rem;
   font-family: inherit;
+  border: 2px solid var(--border);
+  border-radius: 0.5rem;
+  width: 100%;
   
 }
 
@@ -196,3 +224,9 @@ form input[type="text"]::placeholder {
   color: #64748b;
   
 }
+
+
+
+
+
+
