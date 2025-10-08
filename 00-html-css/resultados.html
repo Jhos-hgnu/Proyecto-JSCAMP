@@ -1,0 +1,266 @@
+<!--Página de Resultados de Búsqueda-->
+<!DOCTYPE html>
+
+<html lang = "es">
+    
+    <head>
+        <title>DevJobs - Resultados de Búsqueda</title>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Encuentra los mejores resultado de búsqueda para ofertas de trabajo para desarrolladores"/>
+        
+        <link rel="stylesheet" href="./resultados.css"/>
+    </head>
+
+    <body>
+        <header>
+            <!--Barra superior-->
+            <h1>DevJobs</h1>
+
+            <nav class="navegation-bar">
+                <a href="">Inicio</a>
+                <a href="">Empleos</a>
+                <a href="">Empresas</a>
+                <a href="">Salarios</a>
+            </nav>
+
+            <div>
+                <a href="">Subir CV</a>
+                <img 
+                id = "photo_profile"
+                width="50"
+                height="50"
+                tittle ="User profile"
+                alt="User Profile"
+                src="./Icon_perfil.png"/>
+            </div>
+
+        </header>
+
+        <main>
+
+            <section class="results-header">
+
+                <h1>Encuentra tu próximo trabajo</h1>
+
+                <p>Explora miles de oportunidades en el sector tecnológico.</p>
+
+                <form role="search">
+
+                    <input type="text" placeholder="Buscar trabajos, empresas o habilidades">
+
+                </form>
+            </section>
+
+
+            <!--Filtros de búsqueda-->
+            <section>
+                <form>
+                    <fieldset>
+                        <legend>Opciones de filtrado</legend>
+                        <div class="filter-group">
+                            <label for="why"></label>
+                            <select id="tecnologia" name="tecnologia">
+                                <option value="1">Tecnología</option>
+                                <option value="2">Opcion 2</option>
+                            </select>
+                        </div>
+
+                        <div class="filter-group">
+                            <label for="why"></label>
+                            <select id="ubicacion" name="ubicacion">
+                                <option value="1">Ubicación</option>
+                                <option value="2">Opcion 2</option>
+                            </select>
+                        </div>
+
+                        <div class="filter-group">
+                            <label for="why"></label>
+                            <select id="tipo contrato" name="Tipo de contrato">
+                                <option value="1">Tipo de contrato</option>
+                                <option value="2">Opcion 2</option>
+                            </select>
+                        </div>
+
+                        <div class="filter-group">
+                            <label for="why"></label>
+                            <select id="nivel experiencia" name="Nivel de experiencia">
+                                <option value="1">Nivel de experiencia</option>
+                                <option value="2">Opcion 2</option>
+                            </select>
+                        </div>
+
+                    </fieldset>
+                </form>
+
+            </section>
+
+
+            <section>
+                <header>
+                    <h2>Resultados de búsqueda</h2>
+
+                </header>
+
+                <ul>
+                    <li>
+                        <article>
+
+                            <header>
+                                <h3>
+                                    <a href="">Ingeniero de Sofware</a>
+                                </h3>
+                                <p>
+                                    <span>Tech Solutions Inc.</span>
+                                    <span>|</span>
+                                    <span>Remoto</span>
+                                </p>
+                            </header>
+
+                            <p>
+                             Buscamos un ingeniero de software con experiencia en desarrollo 
+                             web y conocimientos en JavaScript, React y Node.js. El candidato 
+                             ideal debe ser capaz de trabajar en equipo y tener buenas 
+                             habilidades de comunicación.
+                            </p>
+
+                            <footer>
+                                <a href="">Aplicar</a>
+                            </footer>
+
+                        </article>
+                    </li>
+
+
+                    <li>
+                        <article>
+                            <header>
+                                <h3>Analista de Datos</h3>
+                                <p>
+                                    <span>Data Driven Co.</span>
+                                    <span>|</span>
+                                    <span>Ciudad de México</span>
+                                </p>
+                            </header>
+
+                            <p>
+                             Estamos buscando un analista de datos con experiencia en el manejo 
+                             de grandes conjuntos de datos y herramientas de visualización. 
+                             Se requiere conocimiento en SQL, Python y R.
+                            </p>
+
+                            <footer>
+                                <a href="">Aplicar</a>
+                            </footer>
+
+                        </article>
+                    </li>
+
+
+                    <li>
+                        <article>
+                            <header>
+                                <h3>
+                                    Desarrollador de Aplicaciones Móviles
+                                </h3>
+                            
+                                <p>
+                                    <span>Mobile Apps Ltd.</span>
+                                    <span>|</span>
+                                    <span>Guadalajara</span>
+                                </p>
+
+                            </header>
+
+                            <p>
+                             Buscamos un desarrollador de aplicaciones móviles con experiencia 
+                             en iOS y/o Android. El candidato debe tener conocimientos en 
+                             Swift, Kotlin y el desarrollo de interfaces de usuario.
+                            </p>
+
+
+                            <footer>
+                                <a href="">Aplicar</a>
+                            </footer>
+
+                        </article>
+                    </li>
+
+                    
+                    <li>
+                        <article>
+                            <header>
+                                <h3>
+                                    Ingeniero DevOps
+                                </h3>
+
+                                <p>
+                                    <span>Cloud Services SA</span>
+                                    <span>|</span>
+                                    <span>Remoto</span>
+                                </p>
+                            </header>
+
+                            <p>
+                             Estamos buscando un ingeniero de DevOps con experiencia en la 
+                             gestión de infraestructuras en la nube, automatización de 
+                             procesos y herramientas de integración continua. Se requiere 
+                             conocimiento en AWS, Azure o GCP.
+                            </p>
+
+                            <footer>
+                                <a href="">Aplicar</a>
+                            </footer>
+
+                        </article>
+                    </li>
+
+                </ul>
+
+
+                <!--Paginación-->
+                <footer>
+                 <nav>
+                     <ul>
+                         <li>
+                             <a href=""> < </a>
+                         </li>
+
+                         <li>
+                             <a href="">1</a>
+                         </li>
+
+                         <li>
+                             <a href="">2</a>
+                         </li>
+
+                         <li>
+                             <a href="">3</a>
+                         </li>
+
+                         <li>
+                             <a href="">4</a>
+                         </li>
+
+                         <li>
+                             <a href="">5</a>
+                         </li>
+
+                         <li>
+                             <a href=""> > </a>
+                         </li>
+                     </ul>
+                 </nav>
+                </footer>
+                
+            </section>
+
+        </main>
+
+        <footer>
+
+        </footer>
+
+    </body>
+
+</html>
+
