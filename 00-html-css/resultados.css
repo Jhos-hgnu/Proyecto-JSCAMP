@@ -186,16 +186,15 @@ main > section:nth-child(1){
 
 
 
+
+
+
+
+
+
+
+
 /*Formulario de Búsqueda*/
-form {
-  max-width: 98rem;
-  width: 100%;
-  margin: 0 auto;
-  padding-inline: 1rem;
-  
-}
-
-
 
 form[role="search"] {
    max-width: 98rem;
@@ -228,5 +227,64 @@ form input[type="text"]::placeholder {
 
 
 
+/*Formulario de filtrado*/
+form {
+  max-width: 98rem;
+  width: 100%;
+  margin: 0 auto;
+  padding-inline: 1rem;
+}
 
 
+
+fieldset {
+  display: flex;
+  gap: 0.5rem;
+  border: none;
+  margin-top: 0.5rem;
+}
+
+
+
+.filter-group {
+  
+  min-width: 15px;
+ 
+  
+}
+
+.filter-group select {
+   background-color: #334155;
+   border: none;
+   border-radius: 0.3rem;
+   padding: 0.70rem;
+   color: var(--text-primary);
+
+}
+
+
+.resultados-busqueda h2 {
+  padding-top: 15px;
+  padding-left: 3.8rem;
+}
+
+li {
+  background-color: red;
+}
+
+/*
+padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #334155;
+  color: var(--primary-light);
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-decoration: none;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.2s;
+  margin-right: 1rem;
+
+
+*/
