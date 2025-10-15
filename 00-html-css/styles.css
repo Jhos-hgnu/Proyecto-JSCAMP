@@ -464,6 +464,11 @@ article {
   }
 }
 
+
+
+
+
+
 /*Detalle Ing Software*/
 
 ul {
@@ -481,3 +486,8 @@ ul {
     align-items: center;
   }
 }
+
+.detail-Ing-Sofware {
+  background: var(--background);
+}
+
